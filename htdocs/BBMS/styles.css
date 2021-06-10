@@ -1,0 +1,67 @@
+[data-tab-content]
+{
+    display: none;
+}
+
+.active[data-tab-content]
+{
+    display: block;
+}
+
+.header
+{
+    font-size: 200%;
+    text-align: center;
+}
+
+.tabs
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+
+.tab
+{
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+.tab.active
+{
+    background-color:rgb(180, 180, 187);
+}
+
+.tab:hover
+{
+    background-color: rgb(180, 180, 187);
+}
+
+.tab-content
+{
+    Margin-left: 40px;
+    margin-right: 40px;
+}
+
+.tabs input[type=text] 
+{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.search_bar
+{
+    align-self: center;
+    cursor: pointer;
+    padding: 50px;
+    border: none;
+    font-weight: bold;
+    align-items: center;
+}
